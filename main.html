@@ -4,10 +4,107 @@
 
 <head>
 	<link rel="stylesheet" href="styles.css">
+	 <style>
+	    table {
+	      border-collapse: collapse;
+	      width: 400px;
+           margin:10px;
+	    }
+	    td {
+	      border: 2px solid #777;
+	      height: 20px;
+	      text-align: center;
+	    }
+
+	   #table-3
+
+       #t-image img{
+		    width: 100px;
+		    height: auto;
+	   }
+	  </style>
 </head>
 
 <body>
 	<!-- the entire body must be written by student -->
+
+	<h3>HTML Assignment #3</h3>
+    
+<!-- first table  -->
+	 <table id="table-1">
+       <tr >
+          <td>left</td>
+		   <td> center</td>
+		   <td class="right">right</td>
+        </tr>
+          <tr class="center">
+          <td>left</td>
+		   <td> center</td>
+		   <td class="right">right</td>
+        </tr>
+         <tr>
+          <td>left</td>
+		   <td> center</td>
+		   <td class="right">right</td>
+        </tr>
+      </table>
+      <!-- second table  -->
+     <table id="table-2" >
+       <!-- 1st row  -->
+       <tr id="t21">
+		     <td colspan="6"></td>  	     
+	   </tr>
+        <!-- 2nd row  -->
+       <tr>
+          <td rowspan="4"></td>
+		   <td></td>
+		   <td></td>
+		   <td></td>
+		   <td></td>
+           <td></td>
+       </tr> 
+		 <!-- 3rd row  -->
+		 <tr>
+           <td></td>
+		   <td colspan="3"></td>
+           <td></td>
+		 </tr>
+		 <!-- 4th row  -->
+		 <tr>
+           <td></td>
+		   <td colspan="3"></td>
+           <td></td>
+         </tr>
+         <!-- 5th row  -->
+		 <tr>
+          <td ></td>
+		   <td></td>
+		   <td></td>
+		   <td></td>
+		   <td></td>
+		 </tr>
+		  <!-- 6th row  -->
+		 <tr>
+            <td colspan="6"></td>  
+		 </tr>
+    </table>
+
+     <!-- third table  -->
+	 <table id="table-3">
+        <tr>
+           <td></td>
+        </tr>
+        <tr>
+          <td id="t-image">
+            <image src="https://www2.d125.org/applied_arts/teched/courses/WEB/portfolios/2013_FallP3/Luthra%20Portfolio/images-1.jpeg
+            " alt="basketball"/>
+          </td>
+         </tr>
+        <tr>
+            <td></td>
+        </tr>
+      </table>
+  
     <script type="text/javascript" src="./script.js">
 </script>
 
